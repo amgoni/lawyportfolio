@@ -24,9 +24,9 @@ export default function RootLayout({
           <Image
             src="/images/background-sketch.png"
             alt="Opaque background sketch"
-            width={500}
-            height={500}
-            className="absolute top-0 right-0 lg:-right-52 z-0"
+            width={541}
+            height={737}
+            className="absolute top-0 right-0 lg:-right-28 z-0"
           />
           {children}
         </div>

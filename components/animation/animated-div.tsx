@@ -1,6 +1,7 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
 
 interface AnimatedDivProps {
   children: React.ReactNode;
@@ -36,12 +37,23 @@ export default function AnimatedDiv({
   className,
   direction = "up",
 }: AnimatedDivProps) {
+  const componentRef = useRef<HTMLDivElement>(null);
+  const isInView = useInView(componentRef, { once: true });
+  const [hasAnimated, setHasAnimated] = useState(false);
+
+  useEffect(() => {
+    if (isInView) {
+      setHasAnimated(true);
+    }
+  }, [isInView]);
+
   return (
     <motion.div
       variants={reveal(direction)}
       initial="initial"
-      animate="animate"
+      animate={hasAnimated ? "animate" : "initial"}
       className={className}
+      ref={componentRef}
     >
       {children}
     </motion.div>

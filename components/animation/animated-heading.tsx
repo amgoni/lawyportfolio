@@ -1,7 +1,8 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
 
 interface AnimatedHeadingProps {
   title: string;
@@ -35,27 +36,35 @@ const singleWord = {
 };
 
 const AnimatedHeading = ({ title, className }: AnimatedHeadingProps) => {
+  const componentRef = useRef<HTMLHeadingElement>(null);
+  const isInView = useInView(componentRef, { once: true });
+  const [hasAnimated, setHasAnimated] = useState(false);
+
+  useEffect(() => {
+    if (isInView) {
+      setHasAnimated(true);
+    }
+  }, [isInView]);
+
   return (
-    <div
-      className={`w-full mx-auto py-0 sm:py-2 flex items-center justify-center`}
+    <motion.h1
+      variants={quote}
+      initial="initial"
+      animate={hasAnimated ? "animate" : "initial"}
+      className={cn(className)}
+      ref={componentRef}
     >
-      <motion.h1
-        variants={quote}
-        initial="initial"
-        animate="animate"
-        className={cn(className)}
-      >
-        {title.split(" ").map((word, index) => (
-          <motion.span
-            variants={singleWord}
-            key={word + "-" + index}
-            className="inline-block"
-          >
-            {word}&nbsp;
-          </motion.span>
-        ))}
-      </motion.h1>
-    </div>
+      {title.split(" ").map((word, index) => (
+        <motion.span
+          variants={singleWord}
+          key={word + "-" + index}
+          className="inline-block"
+        >
+          {word}
+          {index < title.split(" ").length - 1 && "\u00A0"}
+        </motion.span>
+      ))}
+    </motion.h1>
   );
 };
 

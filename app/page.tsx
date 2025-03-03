@@ -1,5 +1,13 @@
-import Hero from "@/app/Hero";
+import Hero from "@/app/(sections)/Hero";
+import About from "./(sections)/About";
+import Projects from "./(sections)/Projects";
 
 export default function Home() {
-  return <Hero />;
+  return (
+    <>
+      <Hero />
+      <About />
+      <Projects />
+    </>
+  );
 }

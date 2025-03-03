@@ -19,7 +19,7 @@ const LINKS = [
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between py-4">
+    <nav className="flex items-center justify-between py-4 z-2">
       <Logo />
 
       {/* DESKTOP NAV */}
@@ -36,7 +36,7 @@ const Navbar = () => {
       </div>
 
       {/* MOBILE NAV */}
-      <div className="md:hidden">
+      <div className="md:hidden z-10 relative">
         <Sheet>
           <SheetTrigger>
             <SquareMenu color="#1b1b1b" size={30} className="hover:scale-75" />
