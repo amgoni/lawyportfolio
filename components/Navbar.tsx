@@ -19,7 +19,7 @@ const LINKS = [
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between py-4 z-2">
+    <nav className="flex items-center justify-between py-4 z-10">
       <Logo />
 
       {/* DESKTOP NAV */}
@@ -55,7 +55,7 @@ const Navbar = () => {
                 <Link
                   key={index}
                   href={link.href}
-                  className=" relative text-4xl w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+                  className="font-title relative text-4xl w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
                 >
                   {link.label}
                 </Link>

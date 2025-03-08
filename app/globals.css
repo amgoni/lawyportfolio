@@ -101,15 +101,25 @@ h6 {
 }
 
 p,
-li {
-  font-family: var(--font-work-sans);
+li,
+a {
+  font-family: var(--font-poppins);
   font-weight: 500;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 768px) {
+  p,
+  li {
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+  }
 }
 
 button {
-  font-family: var(--font-work-sans);
+  font-family: var(--font-poppins);
 }
 
 .profilePic {

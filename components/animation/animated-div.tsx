@@ -7,9 +7,13 @@ interface AnimatedDivProps {
   children: React.ReactNode;
   className?: string;
   direction?: "up" | "down" | "left" | "right";
+  delay?: number;
 }
 
-const reveal = (direction: "up" | "down" | "left" | "right") => {
+const reveal = (
+  direction: "up" | "down" | "left" | "right",
+  delay: number = 0
+) => {
   const variants = {
     up: { y: 30 },
     down: { y: -30 },
@@ -27,6 +31,7 @@ const reveal = (direction: "up" | "down" | "left" | "right") => {
       y: 0,
       transition: {
         duration: 1,
+        delay: delay,
       },
     },
   };
@@ -36,6 +41,7 @@ export default function AnimatedDiv({
   children,
   className,
   direction = "up",
+  delay = 0,
 }: AnimatedDivProps) {
   const componentRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(componentRef, { once: true });
@@ -49,7 +55,7 @@ export default function AnimatedDiv({
 
   return (
     <motion.div
-      variants={reveal(direction)}
+      variants={reveal(direction, delay)}
       initial="initial"
       animate={hasAnimated ? "animate" : "initial"}
       className={className}

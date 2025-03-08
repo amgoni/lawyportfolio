@@ -3,22 +3,37 @@ import React from "react";
 import { Button } from "../../components/ui/button";
 import AnimatedHeading from "@/components/animation/animated-heading";
 import AnimatedDiv from "@/components/animation/animated-div";
+import Container from "@/components/container";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row my-8 items-center">
+    <Container className="flex flex-col-reverse md:flex-row my-8 items-center">
       <AnimatedDiv
         direction="right"
         className="md:w-1/2 flex items-start justify-center"
       >
-        <Image src="/images/hero.jpg" alt="Hero" width={499} height={580} />
+        <Image
+          src="/images/hero.jpg"
+          alt="Hero"
+          width={499}
+          height={580}
+          className="rounded-[40px]"
+        />
       </AnimatedDiv>
       <div className="md:w-1/2 flex flex-col items-center md:items-start justify-center ml-0 md:ml-4 lg:ml-0 mb-4 md:mb-0">
         <AnimatedHeading
+          title="Lawal Yusuf"
+          className="font-title text-2xl md:text-4xl text-[#808080] text-center md:text-left mb-4"
+        />
+        <AnimatedHeading
+          title="Architect with over 10 years of experience."
+          className="font-heading text-4xl lg:text-8xl font-bold text-center md:text-left"
+        />
+        {/* <AnimatedHeading
           title="Transforming Spaces with Vision and Precision"
           className="font-heading text-2xl lg:text-6xl font-bold text-center md:text-left"
-        />
-        <AnimatedDiv className="mt-2 lg:mt-4">
+        /> */}
+        {/* <AnimatedDiv className="mt-2 lg:mt-4">
           <p className="text-sm lg:text-lg text-center md:text-left">
             Architecture is more than just buildings—it’s about creating
             experiences. I design spaces that seamlessly blend aesthetics,
@@ -28,14 +43,14 @@ const Hero = () => {
             spaces, I turn concepts into reality with meticulous attention to
             detail. Let’s craft something timeless together.
           </p>
-        </AnimatedDiv>
+        </AnimatedDiv> */}
         <AnimatedDiv>
-          <Button size={"lg"} className="mt-4 lg:mt-12">
+          <Button size={"lg"} className="mt-4 lg:mt-8">
             Let's Talk
           </Button>
         </AnimatedDiv>
       </div>
-    </div>
+    </Container>
   );
 };
 

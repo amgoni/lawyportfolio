@@ -5,6 +5,7 @@ import { ProjectsList } from "@/lib/constants";
 import { Button } from "@/components/ui/button";
 import NumberTicker from "@/components/animation/NumberTicker";
 import AnimatedDiv from "@/components/animation/animated-div";
+import Container from "@/components/container";
 
 const Projects = () => {
   return (
@@ -13,10 +14,25 @@ const Projects = () => {
         title="My Projects"
         className="text-5xl lg:text-8xl text-center md:text-left font-title mb-8"
       />
+      <AnimatedDiv
+        direction="up"
+        className="text-center md:text-left md:w-3/4 self-center mb-12"
+        delay={0.5}
+      >
+        <p className="text-[#808080] text-lg md:text-2xl font-heading">
+          I have designed and delivered exceptional spaces that meet and exceed
+          client expectations. From modern residences to commercial landmarks,
+          my work is a testament to precision, innovation, and attention to
+          detail. <br />
+          {/* Every project is crafted to align with clients' unique requirements
+          and specifications, ensuring functionality, aesthetics, and
+          sustainability are seamlessly integrated. */}
+        </p>
+      </AnimatedDiv>
       {ProjectsList.slice(0, 3).map((project) => (
-        <div
+        <Container
           key={project.id}
-          className="flex flex-col md:flex-row md:space-x-8 md:pl-16 mb-8 items-center md:items-start"
+          className="flex flex-col md:flex-row md:space-x-8 mb-8 items-center md:items-start"
         >
           <AnimatedDiv
             direction="right"
@@ -74,25 +90,25 @@ const Projects = () => {
               <Button size="default">View Project</Button>
             </div>
           </AnimatedDiv>
-        </div>
+        </Container>
       ))}
-      <div className="self-center flex flex-col md:flex-row md:space-x-8 space-y-8 md:space-y-0 mb-4">
+      <div className="self-center flex flex-col lg:flex-row lg:space-x-8 space-y-8 lg:space-y-0 mb-4 lg:bg-black lg:text-white p-8 lg:p-16 rounded-[40px]">
         <div className="flex flex-col items-center">
-          <h3 className="font-bold text-2xl">Projects Completed</h3>
-          <span className="text-6xl">
-            <NumberTicker value={23} />+
+          <h3 className="font-bold text-lg lg:text-2xl">Projects Completed</h3>
+          <span className="text-5xl lg:text-6xl">
+            <NumberTicker value={47} />+
           </span>
         </div>
         <div className="flex flex-col items-center">
-          <h3 className="font-bold text-2xl">Clients Satisfied</h3>
-          <span className="text-6xl">
-            <NumberTicker value={18} />+
+          <h3 className="font-bold text-lg lg:text-2xl">Clients Satisfied</h3>
+          <span className="text-5xl lg:text-6xl">
+            <NumberTicker value={34} />+
           </span>
         </div>
         <div className="flex flex-col items-center">
-          <h3 className="font-bold text-2xl">Years of Experience</h3>
-          <span className="text-6xl">
-            <NumberTicker value={4} />+
+          <h3 className="font-bold text-lg lg:text-2xl">Years of Experience</h3>
+          <span className="text-5xl lg:text-6xl">
+            <NumberTicker value={10} />+
           </span>
         </div>
       </div>
