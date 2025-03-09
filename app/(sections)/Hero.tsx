@@ -29,24 +29,9 @@ const Hero = () => {
           title="Architect with over 10 years of experience."
           className="font-heading text-4xl lg:text-8xl font-bold text-center md:text-left"
         />
-        {/* <AnimatedHeading
-          title="Transforming Spaces with Vision and Precision"
-          className="font-heading text-2xl lg:text-6xl font-bold text-center md:text-left"
-        /> */}
-        {/* <AnimatedDiv className="mt-2 lg:mt-4">
-          <p className="text-sm lg:text-lg text-center md:text-left">
-            Architecture is more than just buildings—it’s about creating
-            experiences. I design spaces that seamlessly blend aesthetics,
-            functionality, and sustainability.
-            <br /> Every project is a reflection of innovation, tailored to
-            inspire and endure. From modern residences to dynamic commercial
-            spaces, I turn concepts into reality with meticulous attention to
-            detail. Let’s craft something timeless together.
-          </p>
-        </AnimatedDiv> */}
         <AnimatedDiv>
           <Button size={"lg"} className="mt-4 lg:mt-8">
-            Let's Talk
+            Let&apos;s Talk
           </Button>
         </AnimatedDiv>
       </div>

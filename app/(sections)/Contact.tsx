@@ -6,7 +6,6 @@ import { Linkedin, Mail, Phone } from "lucide-react";
 import AnimatedDiv from "@/components/animation/animated-div";
 import Container from "@/components/container";
 import { motion, useInView } from "motion/react";
-import Image from "next/image";
 
 const Links = [
   {
@@ -56,7 +55,7 @@ const Contact = () => {
       />
       <AnimatedDiv direction="up">
         <p className="font-heading font-bold text-sm md:text-2xl text-[#808080] text-center mb-2">
-          Let's Get in Touch
+          Let&apos;s Get in Touch
         </p>
       </AnimatedDiv>
       <Container>
