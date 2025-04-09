@@ -48,7 +48,7 @@ const Contact = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <div className="my-16 md:my-32">
+    <div id="contact" className="my-16 md:my-32">
       <AnimatedHeading
         title="Contact Me"
         className="text-5xl lg:text-8xl text-center md:text-right font-title mb-8"

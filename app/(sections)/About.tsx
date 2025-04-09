@@ -6,7 +6,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="mt-16 md:mt-32">
+    <div id="about" className="mt-16 md:mt-32">
       <AnimatedHeading
         title="About Me"
         className="text-5xl lg:text-8xl text-center md:text-left font-title"
@@ -14,25 +14,28 @@ const About = () => {
       <Container className="flex flex-col-reverse md:flex-row md:space-x-8 mt-8 items-center md:items-start">
         <AnimatedDiv direction="right" className="md:w-7/12">
           <p>
-            Hi, I’m <strong>Lawal Yusuf</strong>, a passionate architect
+            Hi, I&apos;m <strong>Lawal Yusuf</strong>, a passionate architect
             dedicated to designing spaces that are both functional and
-            inspiring.
+            inspiring. My journey in architecture began in Istanbul, Turkey,
+            where I earned both my bachelor&apos;s and master&apos;s degrees.
             <br />
-            I specialize in crafting modern, sustainable, and innovative
-            architecture that harmonizes with its surroundings while meeting the
-            unique needs of my clients.
+            The city&apos;s rich architectural heritage and vibrant contemporary
+            design scene deeply shaped my philosophy—encouraging me to think
+            beyond the conventional and embrace bold, modern design solutions.
             <br />
-            Architecture is more than just structures—it’s about creating
-            experiences. I focus on blending aesthetics, efficiency, and
-            sustainability to bring visionary ideas to life. Whether it’s a
-            residential home, commercial space, or urban design, I strive to
-            ensure that every project is a seamless balance of form and
-            function.
+            Now based in Abuja, Nigeria, I channel that experience into creating
+            innovative, sustainable, and impactful architecture. From interior
+            design to full-scale residential and commercial projects, I strive
+            to balance aesthetics, efficiency, and functionality, tailoring each
+            space to the unique needs of my clients.
             <br />
-            I’m committed to pushing the boundaries of design, technology, and
-            sustainability, ensuring that my architectural solutions stand the
-            test of time. Let’s collaborate and shape the future—one space at a
-            time.
+            Beyond the drafting table, I&apos;m a firm believer in creativity,
+            balance, and the value of family time. When I&apos;m not designing
+            or managing projects, I&apos;m enjoying time with loved ones,
+            watching football, or battling it out in FIFA Ultimate Team.
+            <br />
+            Let&apos;s collaborate and bring your vision to life—through
+            architecture that inspires and endures.
           </p>
           <div className="flex flex-col md:flex-row mt-4 md:space-x-10 space-y-4 md:space-y-0">
             <div className="">
@@ -59,7 +62,7 @@ const About = () => {
         </AnimatedDiv>
         <AnimatedDiv direction="left" className="hidden md:flex md:w-5/12">
           <Image
-            src="/images/about.webp"
+            src="/images/about.jpg"
             alt="Lawal Yusuf"
             width={600}
             height={900}

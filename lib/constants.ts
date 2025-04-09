@@ -87,6 +87,13 @@ export const ProjectsList = [
     status: "Finished",
     client: "Nasiru Sabo",
     service: "Full design and project supervision",
+    description: `
+  This residential project was commissioned by a young professional looking to transform a modest bungalow into a modern, light-filled home tailored to their lifestyle. The primary goal was to open up the layout and create a seamless flow between the living, kitchen, and outdoor areas, while preserving some of the home's original character.
+
+  After exploring several layout options, the final design featured a spacious open-plan living area, a custom kitchen with built-in storage, and an extended rear terrace for indoor-outdoor living. Natural light, clean lines, and warm textures were central to the design approach.
+
+  Throughout the project, close collaboration with the client led to bold design choices and carefully selected finishes that reflected their personality. The result is a functional and expressive space that balances comfort, style, and thoughtful detail.
+`,
   },
   {
     id: 2,
@@ -170,6 +177,13 @@ export const ProjectsList = [
     status: "Finished",
     client: "Diego Maradona",
     service: "Interior design",
+    description: `
+  This residential project was commissioned by a young professional looking to transform a modest bungalow into a modern, light-filled home tailored to their lifestyle. The primary goal was to open up the layout and create a seamless flow between the living, kitchen, and outdoor areas, while preserving some of the home's original character.
+
+  After exploring several layout options, the final design featured a spacious open-plan living area, a custom kitchen with built-in storage, and an extended rear terrace for indoor-outdoor living. Natural light, clean lines, and warm textures were central to the design approach.
+
+  Throughout the project, close collaboration with the client led to bold design choices and carefully selected finishes that reflected their personality. The result is a functional and expressive space that balances comfort, style, and thoughtful detail.
+`,
   },
   {
     id: 3,
@@ -235,6 +249,13 @@ export const ProjectsList = [
     status: "Finished",
     client: "Guards Polo Club",
     service: "Full design",
+    description: `
+  This residential project was commissioned by a young professional looking to transform a modest bungalow into a modern, light-filled home tailored to their lifestyle. The primary goal was to open up the layout and create a seamless flow between the living, kitchen, and outdoor areas, while preserving some of the home's original character.
+
+  After exploring several layout options, the final design featured a spacious open-plan living area, a custom kitchen with built-in storage, and an extended rear terrace for indoor-outdoor living. Natural light, clean lines, and warm textures were central to the design approach.
+
+  Throughout the project, close collaboration with the client led to bold design choices and carefully selected finishes that reflected their personality. The result is a functional and expressive space that balances comfort, style, and thoughtful detail.
+`,
   },
   {
     id: 4,
@@ -396,6 +417,13 @@ export const ProjectsList = [
     status: "Finished",
     client: "Nigerian Air Force",
     service: "Full design and project supervision",
+    description: `
+  This residential project was commissioned by a young professional looking to transform a modest bungalow into a modern, light-filled home tailored to their lifestyle. The primary goal was to open up the layout and create a seamless flow between the living, kitchen, and outdoor areas, while preserving some of the home's original character.
+
+  After exploring several layout options, the final design featured a spacious open-plan living area, a custom kitchen with built-in storage, and an extended rear terrace for indoor-outdoor living. Natural light, clean lines, and warm textures were central to the design approach.
+
+  Throughout the project, close collaboration with the client led to bold design choices and carefully selected finishes that reflected their personality. The result is a functional and expressive space that balances comfort, style, and thoughtful detail.
+`,
   },
   {
     id: 5,
@@ -551,6 +579,13 @@ export const ProjectsList = [
     status: "Finished",
     client: "Amin Goni",
     service: "Full design and project supervision",
+    description: `
+  This residential project was commissioned by a young professional looking to transform a modest bungalow into a modern, light-filled home tailored to their lifestyle. The primary goal was to open up the layout and create a seamless flow between the living, kitchen, and outdoor areas, while preserving some of the home's original character.
+
+  After exploring several layout options, the final design featured a spacious open-plan living area, a custom kitchen with built-in storage, and an extended rear terrace for indoor-outdoor living. Natural light, clean lines, and warm textures were central to the design approach.
+
+  Throughout the project, close collaboration with the client led to bold design choices and carefully selected finishes that reflected their personality. The result is a functional and expressive space that balances comfort, style, and thoughtful detail.
+`,
   },
   {
     id: 6,
@@ -598,6 +633,13 @@ export const ProjectsList = [
     status: "Finished",
     client: "Halliru Jika",
     service: "Full design and project supervision",
+    description: `
+  This residential project was commissioned by a young professional looking to transform a modest bungalow into a modern, light-filled home tailored to their lifestyle. The primary goal was to open up the layout and create a seamless flow between the living, kitchen, and outdoor areas, while preserving some of the home's original character.
+
+  After exploring several layout options, the final design featured a spacious open-plan living area, a custom kitchen with built-in storage, and an extended rear terrace for indoor-outdoor living. Natural light, clean lines, and warm textures were central to the design approach.
+
+  Throughout the project, close collaboration with the client led to bold design choices and carefully selected finishes that reflected their personality. The result is a functional and expressive space that balances comfort, style, and thoughtful detail.
+`,
   },
   {
     id: 7,
@@ -645,6 +687,13 @@ export const ProjectsList = [
     status: "Finished",
     client: "Imamu",
     service: "Full design and project supervision",
+    description: `
+  This residential project was commissioned by a young professional looking to transform a modest bungalow into a modern, light-filled home tailored to their lifestyle. The primary goal was to open up the layout and create a seamless flow between the living, kitchen, and outdoor areas, while preserving some of the home's original character.
+
+  After exploring several layout options, the final design featured a spacious open-plan living area, a custom kitchen with built-in storage, and an extended rear terrace for indoor-outdoor living. Natural light, clean lines, and warm textures were central to the design approach.
+
+  Throughout the project, close collaboration with the client led to bold design choices and carefully selected finishes that reflected their personality. The result is a functional and expressive space that balances comfort, style, and thoughtful detail.
+`,
   },
   {
     id: 8,
@@ -686,6 +735,13 @@ export const ProjectsList = [
     status: "Finished",
     client: "Paradise Realty",
     service: "Full design and project supervision",
+    description: `
+  This residential project was commissioned by a young professional looking to transform a modest bungalow into a modern, light-filled home tailored to their lifestyle. The primary goal was to open up the layout and create a seamless flow between the living, kitchen, and outdoor areas, while preserving some of the home's original character.
+
+  After exploring several layout options, the final design featured a spacious open-plan living area, a custom kitchen with built-in storage, and an extended rear terrace for indoor-outdoor living. Natural light, clean lines, and warm textures were central to the design approach.
+
+  Throughout the project, close collaboration with the client led to bold design choices and carefully selected finishes that reflected their personality. The result is a functional and expressive space that balances comfort, style, and thoughtful detail.
+`,
   },
   {
     id: 9,
@@ -739,6 +795,13 @@ export const ProjectsList = [
     status: "Finished",
     client: "Nigerian Air Force",
     service: "Full design and project supervision",
+    description: `
+  This residential project was commissioned by a young professional looking to transform a modest bungalow into a modern, light-filled home tailored to their lifestyle. The primary goal was to open up the layout and create a seamless flow between the living, kitchen, and outdoor areas, while preserving some of the home's original character.
+
+  After exploring several layout options, the final design featured a spacious open-plan living area, a custom kitchen with built-in storage, and an extended rear terrace for indoor-outdoor living. Natural light, clean lines, and warm textures were central to the design approach.
+
+  Throughout the project, close collaboration with the client led to bold design choices and carefully selected finishes that reflected their personality. The result is a functional and expressive space that balances comfort, style, and thoughtful detail.
+`,
   },
   {
     id: 10,
@@ -816,6 +879,13 @@ export const ProjectsList = [
     status: "Finished",
     client: "MTN Nigeria",
     service: "Outside View Renders",
+    description: `
+  This residential project was commissioned by a young professional looking to transform a modest bungalow into a modern, light-filled home tailored to their lifestyle. The primary goal was to open up the layout and create a seamless flow between the living, kitchen, and outdoor areas, while preserving some of the home's original character.
+
+  After exploring several layout options, the final design featured a spacious open-plan living area, a custom kitchen with built-in storage, and an extended rear terrace for indoor-outdoor living. Natural light, clean lines, and warm textures were central to the design approach.
+
+  Throughout the project, close collaboration with the client led to bold design choices and carefully selected finishes that reflected their personality. The result is a functional and expressive space that balances comfort, style, and thoughtful detail.
+`,
   },
   {
     id: 11,
@@ -887,5 +957,235 @@ export const ProjectsList = [
     status: "Finished",
     client: "Ibrahim Ahmad",
     service: "Full design and project supervision",
+    description: `
+  This residential project was commissioned by a young professional looking to transform a modest bungalow into a modern, light-filled home tailored to their lifestyle. The primary goal was to open up the layout and create a seamless flow between the living, kitchen, and outdoor areas, while preserving some of the home's original character.
+
+  After exploring several layout options, the final design featured a spacious open-plan living area, a custom kitchen with built-in storage, and an extended rear terrace for indoor-outdoor living. Natural light, clean lines, and warm textures were central to the design approach.
+
+  Throughout the project, close collaboration with the client led to bold design choices and carefully selected finishes that reflected their personality. The result is a functional and expressive space that balances comfort, style, and thoughtful detail.
+`,
+  },
+  {
+    id: 12,
+    images: [
+      {
+        src: "/images/projects/new-gra-bauchi/cover.jpg",
+        alt: "New GRA, Bauchi bungalow cover",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/new-gra-bauchi/1.jpg",
+        alt: "New GRA, Bauchi bungalow approach",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/new-gra-bauchi/2.jpg",
+        alt: "New GRA, Bauchi bungalow side approach",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/new-gra-bauchi/3.jpg",
+        alt: "New GRA, Bauchi bungalow front view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/new-gra-bauchi/4.jpg",
+        alt: "New GRA, Bauchi bungalow side wide view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/new-gra-bauchi/5.jpg",
+        alt: "New GRA, Bauchi bungalow approach view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/new-gra-bauchi/6.jpg",
+        alt: "New GRA, Bauchi bungalow approach wide view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/new-gra-bauchi/7.jpg",
+        alt: "New GRA, Bauchi bungalow front view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/new-gra-bauchi/8.jpg",
+        alt: "New GRA, Bauchi bungalow bird's-eye view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/new-gra-bauchi/9.jpg",
+        alt: "New GRA, Bauchi bungalow wide view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/new-gra-bauchi/10.jpg",
+        alt: "New GRA, Bauchi bungalow distant bird's-eye view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/new-gra-bauchi/11.jpg",
+        alt: "New GRA, Bauchi bungalow distant bird's-eye view render",
+        width: 2000,
+        height: 2000,
+      },
+    ],
+    title: "New GRA Bungalow",
+    location: "Bauchi",
+    period: "2023",
+    status: "Finished",
+    client: "Abubakar Sadiq",
+    service: "Full design and project supervision",
+    description: `
+  This residential project was commissioned by a young professional looking to transform a modest bungalow into a modern, light-filled home tailored to their lifestyle. The primary goal was to open up the layout and create a seamless flow between the living, kitchen, and outdoor areas, while preserving some of the home's original character.
+
+  After exploring several layout options, the final design featured a spacious open-plan living area, a custom kitchen with built-in storage, and an extended rear terrace for indoor-outdoor living. Natural light, clean lines, and warm textures were central to the design approach.
+
+  Throughout the project, close collaboration with the client led to bold design choices and carefully selected finishes that reflected their personality. The result is a functional and expressive space that balances comfort, style, and thoughtful detail.
+`,
+  },
+  {
+    id: 13,
+    images: [
+      {
+        src: "/images/projects/bauchi-bungalow/cover.jpg",
+        alt: "Bauchi Bungalow front view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/bauchi-bungalow/1.jpg",
+        alt: "Bauchi Bungalow isometric view live",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/bauchi-bungalow/2.jpg",
+        alt: "Bauchi Bungalow front view live",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/bauchi-bungalow/3.jpg",
+        alt: "Bauchi Bungalow side view render",
+        width: 2000,
+        height: 2000,
+      },
+    ],
+    title: "Bauchi Bungalow",
+    location: "Bauchi",
+    period: "2023",
+    status: "Finished",
+    client: "Abubakar Sadiq",
+    service: "Full design and project supervision",
+    description: `
+  This residential project was commissioned by a young professional looking to transform a modest bungalow into a modern, light-filled home tailored to their lifestyle. The primary goal was to open up the layout and create a seamless flow between the living, kitchen, and outdoor areas, while preserving some of the home's original character.
+
+  After exploring several layout options, the final design featured a spacious open-plan living area, a custom kitchen with built-in storage, and an extended rear terrace for indoor-outdoor living. Natural light, clean lines, and warm textures were central to the design approach.
+
+  Throughout the project, close collaboration with the client led to bold design choices and carefully selected finishes that reflected their personality. The result is a functional and expressive space that balances comfort, style, and thoughtful detail.
+`,
+  },
+  {
+    id: 14,
+    images: [
+      {
+        src: "/images/projects/kaduna-bungalow/cover.jpg",
+        alt: "Kaduna Bungalow front view live",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/kaduna-bungalow/1.jpg",
+        alt: "Kaduna Bungalow distant front view live",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/kaduna-bungalow/2.jpg",
+        alt: "Kaduna Bungalow isometric view live",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/kaduna-bungalow/3.jpg",
+        alt: "Kaduna Bungalow interior live",
+        width: 2000,
+        height: 2000,
+      },
+
+      {
+        src: "/images/projects/kaduna-bungalow/4.jpg",
+        alt: "Kaduna Bungalow isometric view render",
+        width: 2000,
+        height: 2000,
+      },
+    ],
+    title: "Kaduna Bungalow",
+    location: "Kaduna",
+    period: "2023",
+    status: "Finished",
+    client: "Abubakar Sadiq",
+    service: "Full design and project supervision",
+    description: `
+  This residential project was commissioned by a young professional looking to transform a modest bungalow into a modern, light-filled home tailored to their lifestyle. The primary goal was to open up the layout and create a seamless flow between the living, kitchen, and outdoor areas, while preserving some of the home's original character.
+
+  After exploring several layout options, the final design featured a spacious open-plan living area, a custom kitchen with built-in storage, and an extended rear terrace for indoor-outdoor living. Natural light, clean lines, and warm textures were central to the design approach.
+
+  Throughout the project, close collaboration with the client led to bold design choices and carefully selected finishes that reflected their personality. The result is a functional and expressive space that balances comfort, style, and thoughtful detail.
+`,
+  },
+  {
+    id: 15,
+    images: [
+      {
+        src: "/images/projects/old-gra-bungalow/cover.jpg",
+        alt: "Old GRA Bungalow front view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/old-gra-bungalow/1.jpg",
+        alt: "Old GRA Bungalow distant front view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/old-gra-bungalow/2.jpg",
+        alt: "Old GRA Bungalow side view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "/images/projects/old-gra-bungalow/3.jpg",
+        alt: "Old GRA Bungalow isometric view render",
+        width: 2000,
+        height: 2000,
+      },
+    ],
+    title: "Old GRA Bungalow",
+    location: "Bauchi",
+    period: "2023",
+    status: "Finished",
+    client: "Abubakar Sadiq",
+    service: "Full design and project supervision",
+    description: `
+  This residential project was commissioned by a young professional looking to transform a modest bungalow into a modern, light-filled home tailored to their lifestyle. The primary goal was to open up the layout and create a seamless flow between the living, kitchen, and outdoor areas, while preserving some of the home's original character.
+
+  After exploring several layout options, the final design featured a spacious open-plan living area, a custom kitchen with built-in storage, and an extended rear terrace for indoor-outdoor living. Natural light, clean lines, and warm textures were central to the design approach.
+
+  Throughout the project, close collaboration with the client led to bold design choices and carefully selected finishes that reflected their personality. The result is a functional and expressive space that balances comfort, style, and thoughtful detail.
+`,
   },
 ];

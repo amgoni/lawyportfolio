@@ -11,10 +11,10 @@ import {
 } from "@/components/ui/sheet";
 
 const LINKS = [
-  { href: "/", label: "About Me" },
-  { href: "/", label: "My Works" },
-  { href: "/", label: "My Studio" },
-  { href: "/", label: "Contact Me" },
+  { href: "#about", label: "About Me" },
+  { href: "#projects", label: "My Projects" },
+  { href: "#studio", label: "My Studio" },
+  { href: "#contact", label: "Contact Me" },
 ];
 
 const Navbar = () => {

@@ -6,7 +6,7 @@ import React from "react";
 
 const Studio = () => {
   return (
-    <div className="my-16 md:my-32 flex flex-col">
+    <div id="studio" className="my-16 md:my-32 flex flex-col">
       <AnimatedHeading
         title="My Studio"
         className="text-5xl lg:text-8xl text-center md:text-left font-title mb-4 md:mb-8"

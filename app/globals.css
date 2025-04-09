@@ -84,11 +84,14 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-work-sans);
   font-size: 1rem;
   line-height: 1.5;
-  scroll-behavior: smooth;
 }
 
 h1,
@@ -141,4 +144,109 @@ button {
   100% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
+}
+
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.slider-container .slider {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 375px) {
+  .slider-container .slider {
+    height: 400px;
+    width: 300px;
+  }
+}
+
+.slider-container .slider .image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  will-change: transform, opacity;
+}
+
+.slider-container .slider .image:hover {
+  cursor: grab;
+}
+
+.slider-container .slider .image:active {
+  cursor: grabbing;
+}
+
+.slider-container .buttons {
+  margin-top: 12px;
+}
+
+.slider-container .buttons button:first-of-type {
+  margin-right: 15px;
+}
+
+.slider-container .buttons button:hover {
+  cursor: pointer;
+}
+
+.slider-container .buttons button:active {
+  transform: scale(0.85) skewY(-5deg) rotate(5deg);
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnails .thumbnail-container {
+  position: relative;
+  height: 120px;
+  width: 90px;
+}
+
+@media only screen and (max-width: 375px) {
+  .thumbnails .thumbnail-container {
+    height: 70px;
+    width: 50px;
+  }
+}
+
+.thumbnails .thumbnail-container:hover {
+  cursor: pointer;
+}
+
+.thumbnails .thumbnail-container:not(:last-of-type) {
+  margin-right: 5px;
+}
+
+.thumbnails .thumbnail-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.thumbnails .thumbnail-container .active-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  transform: scaleX(0);
+  transform-origin: left;
+  background-color: grey; /* Replace $grey with the actual color value */
+  transition: 1s cubic-bezier(0.56, 0.03, 0.12, 1.04) transform;
+}
+
+.thumbnails .thumbnail-container .active-indicator.active {
+  transform: scaleX(1);
 }

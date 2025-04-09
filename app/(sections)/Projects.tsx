@@ -6,10 +6,11 @@ import { Button } from "@/components/ui/button";
 import NumberTicker from "@/components/animation/NumberTicker";
 import AnimatedDiv from "@/components/animation/animated-div";
 import Container from "@/components/container";
+import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div className="my-16 md:my-32 flex flex-col">
+    <div id="projects" className="my-16 md:my-32 flex flex-col">
       <AnimatedHeading
         title="My Projects"
         className="text-5xl lg:text-8xl text-center md:text-left font-title mb-8"
@@ -24,15 +25,12 @@ const Projects = () => {
           client expectations. From modern residences to commercial landmarks,
           my work is a testament to precision, innovation, and attention to
           detail. <br />
-          {/* Every project is crafted to align with clients' unique requirements
-          and specifications, ensuring functionality, aesthetics, and
-          sustainability are seamlessly integrated. */}
         </p>
       </AnimatedDiv>
       {ProjectsList.slice(0, 3).map((project) => (
         <Container
           key={project.id}
-          className="flex flex-col md:flex-row md:space-x-8 mb-8 items-center md:items-start"
+          className="flex flex-col md:flex-row md:space-x-8 mb-24 items-center md:items-start"
         >
           <AnimatedDiv
             direction="right"
@@ -56,38 +54,40 @@ const Projects = () => {
                 </h2>
               </div>
               <div>
-                <h3 className="text-md md:text-xl font-heading font-semibold">
-                  Location
-                </h3>
-                <p className="text-sm md:text-lg">{project.location}</p>
+                <h3 className="text-sm md:text-lg font-heading">Location</h3>
+                <p className="text-md md:text-xl font-semibold">
+                  {project.location}
+                </p>
               </div>
               <div>
-                <h3 className="text-md md:text-xl font-heading font-semibold">
-                  Period
-                </h3>
-                <p className="text-sm md:text-lg">{project.period}</p>
+                <h3 className="text-sm md:text-lg font-heading">Period</h3>
+                <p className="text-md md:text-xl font-semibold">
+                  {project.period}
+                </p>
               </div>
               <div>
-                <h3 className="text-md md:text-xl font-heading font-semibold">
-                  Status
-                </h3>
-                <p className="text-sm md:text-lg">{project.status}</p>
+                <h3 className="text-sm md:text-lg font-heading">Status</h3>
+                <p className="text-md md:text-xl font-semibold">
+                  {project.status}
+                </p>
               </div>
               <div>
-                <h3 className="text-md md:text-xl font-heading font-semibold">
-                  Client
-                </h3>
-                <p className="text-sm md:text-lg">{project.client}</p>
+                <h3 className="text-sm md:text-lg font-heading">Client</h3>
+                <p className="text-md md:text-xl font-semibold">
+                  {project.client}
+                </p>
               </div>
               <div>
-                <h3 className="text-md md:text-xl font-heading font-semibold">
-                  Service
-                </h3>
-                <p className="text-sm md:text-lg">{project.service}</p>
+                <h3 className="text-sm md:text-lg font-heading">Service</h3>
+                <p className="text-md md:text-xl font-semibold">
+                  {project.service}
+                </p>
               </div>
             </div>
             <div className="mt-auto">
-              <Button size="default">View Project</Button>
+              <Button size="default" asChild>
+                <Link href={`/projects/${project.id}`}>View Project</Link>
+              </Button>
             </div>
           </AnimatedDiv>
         </Container>
@@ -112,8 +112,8 @@ const Projects = () => {
           </span>
         </div>
       </div>
-      <Button size="lg" className="self-center">
-        View All Projects
+      <Button size="lg" className="self-center" asChild>
+        <Link href="/projects">View More Projects</Link>
       </Button>
     </div>
   );
