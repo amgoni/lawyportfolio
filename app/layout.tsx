@@ -4,6 +4,7 @@ import { poppins, workSans, typo } from "@/lib/font";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Footer from "./(sections)/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "Lawal Yusuf",
@@ -37,6 +38,7 @@ export default function RootLayout({
             className="absolute -bottom-32 -left-32 -z-10 opacity-20"
           />
           {children}
+          <SpeedInsights />
         </div>
         <Footer />
       </body>
