@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, Key } from "react";
+import { useState, useEffect, Key, useRef } from "react";
 import { useParams } from "next/navigation";
 import { motion, AnimatePresence } from "motion/react";
 import { wrap } from "popmotion";
@@ -11,7 +11,13 @@ import Image from "next/image";
 
 interface Project {
   id: number;
-  images: { src: string; alt: string; width: number; height: number }[];
+  images: {
+    src: string;
+    alt: string;
+    width?: number;
+    height?: number;
+    type?: string;
+  }[];
   title: string;
   location: string;
   period: string;
@@ -88,6 +94,19 @@ const ProjectPage = () => {
     setImageCount([imageIndex, changeDirection || 0]);
   };
 
+  const mediaRef = useRef<HTMLDivElement | null>(null);
+
+  const handleFullscreen = () => {
+    if (
+      mediaRef.current &&
+      typeof mediaRef.current.requestFullscreen === "function"
+    ) {
+      mediaRef.current.requestFullscreen().catch((err) => {
+        console.warn("Fullscreen failed:", err);
+      });
+    }
+  };
+
   return (
     <div className="my-16 flex flex-col">
       <div className="flex items-center justify-between mb-8">
@@ -104,9 +123,13 @@ const ProjectPage = () => {
             <AnimatePresence initial={false} custom={direction}>
               <motion.div
                 key={imageCount}
-                style={{
-                  backgroundImage: `url(${project?.images[activeImageIndex].src})`,
-                }}
+                style={
+                  project?.images[activeImageIndex].type !== "video"
+                    ? {
+                        backgroundImage: `url(${project?.images[activeImageIndex].src})`,
+                      }
+                    : undefined
+                }
                 custom={direction}
                 variants={sliderVariants}
                 initial="incoming"
@@ -118,7 +141,23 @@ const ProjectPage = () => {
                 dragElastic={1}
                 onDragEnd={(_, dragInfo) => dragEndHandler(dragInfo)}
                 className="image"
-              />
+                onClick={() => {
+                  if (window.innerWidth < 768) handleFullscreen();
+                }}
+                ref={mediaRef}
+              >
+                {project?.images[activeImageIndex].type === "video" ? (
+                  <div className="flex items-center justify-center w-full h-full">
+                    <video
+                      src={project.images[activeImageIndex].src}
+                      controls
+                      playsInline
+                      preload="metadata"
+                      className="max-h-full max-w-full rounded-lg"
+                    />
+                  </div>
+                ) : null}
+              </motion.div>
             </AnimatePresence>
           </div>
 
@@ -145,7 +184,14 @@ const ProjectPage = () => {
         <div className="thumbnails">
           {project?.images.map(
             (
-              image: { src: string | undefined; alt: string | undefined },
+              image: {
+                src: string | undefined;
+                alt: string | undefined;
+                width?: number;
+                height?: number;
+                type?: string;
+                thumbnail?: string | undefined;
+              },
               index: Key | null | undefined
             ) => (
               <div
@@ -153,10 +199,21 @@ const ProjectPage = () => {
                 onClick={() => typeof index === "number" && skipToImage(index)}
                 className="thumbnail-container"
               >
-                <Image
-                  src={image.src || "/images/fallback-image.jpg"}
-                  alt={image.alt || "Image description not available"}
-                />
+                {image.type === "video" ? (
+                  <Image
+                    src={image.thumbnail || "/images/video-placeholder.jpg"}
+                    alt={image.alt || "Video thumbnail"}
+                    width={image.width}
+                    height={image.height}
+                  />
+                ) : (
+                  <Image
+                    src={image.src || "/images/fallback-image.jpg"}
+                    alt={image.alt || "Image description not available"}
+                    width={image.width}
+                    height={image.height}
+                  />
+                )}
                 <div
                   className={`active-indicator ${
                     index === activeImageIndex ? "active" : null
