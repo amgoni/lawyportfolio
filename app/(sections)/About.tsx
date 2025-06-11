@@ -54,8 +54,8 @@ const About = () => {
                 <li>AutoCAD</li>
                 <li>SketchUp</li>
                 <li>Revit</li>
-                <li>Rhino</li>
-                <li>InDesign</li>
+                <li>Lumion</li>
+                <li>3ds Max</li>
               </ul>
             </div>
           </div>

@@ -3,6 +3,180 @@ export const ProjectsList = [
     id: 1,
     images: [
       {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749655320/old-gra-bungalow/naf-residence/cover_o7nsub.jpg",
+        alt: "NAF Residence front view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/video/upload/v1749649022/old-gra-bungalow/naf-residence/video_rqnkeb.mp4",
+        alt: "NAF Residence walkthrough",
+        type: "video",
+        width: 2000,
+        height: 2000,
+        thumbnail: "/images/projects/naf-residence/video-thumbnail.png",
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749655322/old-gra-bungalow/naf-residence/1_fd61yz.jpg",
+        alt: "NAF Residence front view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749655318/old-gra-bungalow/naf-residence/2_iwceeo.jpg",
+        alt: "NAF Residence front view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648997/old-gra-bungalow/naf-residence/3_zwsajt.jpg",
+        alt: "NAF Residence front view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749655315/old-gra-bungalow/naf-residence/4_iq3f3d.jpg",
+        alt: "NAF Residence front view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749655317/old-gra-bungalow/naf-residence/5_r1swgk.jpg",
+        alt: "NAF Residence compound front view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749655317/old-gra-bungalow/naf-residence/6_cyobe9.jpg",
+        alt: "NAF Residence compound front view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749655323/old-gra-bungalow/naf-residence/7_oevoph.jpg",
+        alt: "NAF Residence compound front view render",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648968/old-gra-bungalow/naf-residence/8_i64de3.jpg",
+        alt: "NAF Residence master bedroom",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648830/old-gra-bungalow/naf-residence/9_v9ymkm.jpg",
+        alt: "NAF Residence master bedroom",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648901/old-gra-bungalow/naf-residence/10_b33w2p.jpg",
+        alt: "NAF Residence master bedroom",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648930/old-gra-bungalow/naf-residence/11_kee1zl.jpg",
+        alt: "NAF Residence master bedroom",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648980/old-gra-bungalow/naf-residence/12_dzljkx.jpg",
+        alt: "NAF Residence master bedroom",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648905/old-gra-bungalow/naf-residence/13_ebr6an.jpg",
+        alt: "NAF Residence master bedroom",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648839/old-gra-bungalow/naf-residence/14_jhxjgh.jpg",
+        alt: "NAF Residence master bedroom",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648963/old-gra-bungalow/naf-residence/15_le5rs1.jpg",
+        alt: "NAF Residence master bedroom balcony",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648938/old-gra-bungalow/naf-residence/16_s76fd4.jpg",
+        alt: "NAF Residence master bedroom",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648838/old-gra-bungalow/naf-residence/17_ohkpj9.jpg",
+        alt: "NAF Residence bathroom",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749649044/old-gra-bungalow/naf-residence/18_lq5kwn.jpg",
+        alt: "NAF Residence bathroom",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648882/old-gra-bungalow/naf-residence/19_ea0msd.jpg",
+        alt: "NAF Residence bathroom",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648816/old-gra-bungalow/naf-residence/20_mfk8cs.jpg",
+        alt: "NAF Residence bathroom",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749649012/old-gra-bungalow/naf-residence/21_u0yuiu.jpg",
+        alt: "NAF Residence bathroom",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648897/old-gra-bungalow/naf-residence/22_iyoron.jpg",
+        alt: "NAF Residence bathroom",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648943/old-gra-bungalow/naf-residence/23_bitjmv.jpg",
+        alt: "NAF Residence bathroom",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648881/old-gra-bungalow/naf-residence/24_i0phmv.jpg",
+        alt: "NAF Residence bathroom",
+        width: 2000,
+        height: 2000,
+      },
+    ],
+    title: "NAF Residence",
+    location: "Kaduna",
+    period: "2024-2025",
+    status: "Completed",
+    client: "Nafiu Ahmed",
+    service: "Design to Build Execution",
+    description: `This project involved a full-scope architectural service, where I managed every stage from concept development to final construction. 
+    
+    The client entrusted me with bringing their vision to life through a seamless and integrated workflow. 
+    
+    Beginning with an in-depth consultation, I translated the client’s needs into a practical design that maximized spatial efficiency while maintaining aesthetic integrity.`,
+  },
+  {
+    id: 4,
+    images: [
+      {
         src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748880033/old-gra-bungalow/idu-duplex/cover_uv1br1.png",
         alt: "Front view of Idu Duplex",
         width: 2000,
@@ -252,180 +426,7 @@ export const ProjectsList = [
     
     The end result is a revitalized state-of-the-art sporting facility that merges timeless elegance with modern-day comfort.`,
   },
-  {
-    id: 4,
-    images: [
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749649086/old-gra-bungalow/naf-residence/cover_h2z8im.jpg",
-        alt: "NAF Residence front view render",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/video/upload/v1749649022/old-gra-bungalow/naf-residence/video_rqnkeb.mp4",
-        alt: "NAF Residence walkthrough",
-        type: "video",
-        width: 2000,
-        height: 2000,
-        thumbnail: "/images/projects/naf-residence/video-thumbnail.png",
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749649031/old-gra-bungalow/naf-residence/1_dv57yf.jpg",
-        alt: "NAF Residence front view render",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648974/old-gra-bungalow/naf-residence/2_lt9o6x.jpg",
-        alt: "NAF Residence front view render",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648997/old-gra-bungalow/naf-residence/3_zwsajt.jpg",
-        alt: "NAF Residence front view render",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749649078/old-gra-bungalow/naf-residence/4_fnx6l2.jpg",
-        alt: "NAF Residence front view render",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749649024/old-gra-bungalow/naf-residence/5_tqcdl4.jpg",
-        alt: "NAF Residence compound front view render",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648988/old-gra-bungalow/naf-residence/6_w3giyy.jpg",
-        alt: "NAF Residence compound front view render",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749649292/old-gra-bungalow/naf-residence/7_codhwh.jpg",
-        alt: "NAF Residence compound front view render",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648968/old-gra-bungalow/naf-residence/8_i64de3.jpg",
-        alt: "NAF Residence master bedroom",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648830/old-gra-bungalow/naf-residence/9_v9ymkm.jpg",
-        alt: "NAF Residence master bedroom",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648901/old-gra-bungalow/naf-residence/10_b33w2p.jpg",
-        alt: "NAF Residence master bedroom",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648930/old-gra-bungalow/naf-residence/11_kee1zl.jpg",
-        alt: "NAF Residence master bedroom",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648980/old-gra-bungalow/naf-residence/12_dzljkx.jpg",
-        alt: "NAF Residence master bedroom",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648905/old-gra-bungalow/naf-residence/13_ebr6an.jpg",
-        alt: "NAF Residence master bedroom",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648839/old-gra-bungalow/naf-residence/14_jhxjgh.jpg",
-        alt: "NAF Residence master bedroom",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648963/old-gra-bungalow/naf-residence/15_le5rs1.jpg",
-        alt: "NAF Residence master bedroom balcony",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648938/old-gra-bungalow/naf-residence/16_s76fd4.jpg",
-        alt: "NAF Residence master bedroom",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648838/old-gra-bungalow/naf-residence/17_ohkpj9.jpg",
-        alt: "NAF Residence bathroom",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749649044/old-gra-bungalow/naf-residence/18_lq5kwn.jpg",
-        alt: "NAF Residence bathroom",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648882/old-gra-bungalow/naf-residence/19_ea0msd.jpg",
-        alt: "NAF Residence bathroom",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648816/old-gra-bungalow/naf-residence/20_mfk8cs.jpg",
-        alt: "NAF Residence bathroom",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749649012/old-gra-bungalow/naf-residence/21_u0yuiu.jpg",
-        alt: "NAF Residence bathroom",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648897/old-gra-bungalow/naf-residence/22_iyoron.jpg",
-        alt: "NAF Residence bathroom",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648943/old-gra-bungalow/naf-residence/23_bitjmv.jpg",
-        alt: "NAF Residence bathroom",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1749648881/old-gra-bungalow/naf-residence/24_i0phmv.jpg",
-        alt: "NAF Residence bathroom",
-        width: 2000,
-        height: 2000,
-      },
-    ],
-    title: "NAF Residence",
-    location: "Kaduna",
-    period: "2024-2025",
-    status: "Completed",
-    client: "Nafiu Ahmed",
-    service: "Design to Build Execution",
-    description: `This project involved a full-scope architectural service, where I managed every stage from concept development to final construction. 
-    
-    The client entrusted me with bringing their vision to life through a seamless and integrated workflow. 
-    
-    Beginning with an in-depth consultation, I translated the client’s needs into a practical design that maximized spatial efficiency while maintaining aesthetic integrity.`,
-  },
+
   {
     id: 5,
     images: [

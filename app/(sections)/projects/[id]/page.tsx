@@ -205,6 +205,7 @@ const ProjectPage = () => {
                     alt={image.alt || "Video thumbnail"}
                     width={image.width}
                     height={image.height}
+                    priority={true}
                   />
                 ) : (
                   <Image
@@ -212,6 +213,7 @@ const ProjectPage = () => {
                     alt={image.alt || "Image description not available"}
                     width={image.width}
                     height={image.height}
+                    priority={true}
                   />
                 )}
                 <div
