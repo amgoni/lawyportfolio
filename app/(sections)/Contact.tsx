@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import AnimatedHeading from "@/components/animation/animated-heading";
-import { Linkedin, Mail, Phone } from "lucide-react";
+import { Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import AnimatedDiv from "@/components/animation/animated-div";
 import Container from "@/components/container";
 import { motion, useInView } from "motion/react";
@@ -10,18 +10,18 @@ import { motion, useInView } from "motion/react";
 const Links = [
   {
     icon: <Mail size={30} strokeWidth={2.5} />,
-    href: "mailto:lawalyusuf@example.com",
+    href: "mailto:arclawalyusuf@gmail.com",
     text: "Send me an email",
   },
   {
     icon: <Phone size={30} strokeWidth={2.5} />,
-    href: "tel:+2341234567890",
+    href: "tel:+2348033890606",
     text: "Call me",
   },
   {
-    icon: <Linkedin size={30} strokeWidth={2.5} />,
-    href: "https://www.linkedin.com",
-    text: "Connect on LinkedIn",
+    icon: <MapPin size={30} strokeWidth={2.5} />,
+    href: "https://maps.app.goo.gl/bXHX83c75k4h7x7FA",
+    text: "No. 8 Ethiopia Close, Maitama, Abuja, Nigeria",
     target: "_blank",
   },
 ];
