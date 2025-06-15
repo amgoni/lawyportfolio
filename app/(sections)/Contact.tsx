@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import AnimatedHeading from "@/components/animation/animated-heading";
-import { Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 import AnimatedDiv from "@/components/animation/animated-div";
 import Container from "@/components/container";
 import { motion, useInView } from "motion/react";
