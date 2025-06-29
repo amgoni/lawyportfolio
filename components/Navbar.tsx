@@ -22,7 +22,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   // Handles mobile nav link clicks
-  const handleMobileLinkClick = (href: string, e: React.MouseEvent) => {
+  const handleMobileLinkClick = () => {
     setIsOpen(false);
   };
 
@@ -65,7 +65,7 @@ const Navbar = () => {
                 <Link
                   key={index}
                   href={link.href}
-                  onClick={(e) => handleMobileLinkClick(link.href, e)}
+                  onClick={handleMobileLinkClick}
                   className="font-title relative text-4xl w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
                 >
                   {link.label}
