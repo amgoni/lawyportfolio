@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import Logo from "./Logo";
 import { SquareMenu } from "lucide-react";
@@ -7,21 +8,27 @@ import {
   SheetDescription,
   SheetHeader,
   SheetTitle,
-  SheetTrigger,
 } from "@/components/ui/sheet";
+import { useState } from "react";
 
 const LINKS = [
-  { href: "#about", label: "About Me" },
-  { href: "#projects", label: "My Projects" },
-  { href: "#studio", label: "My Studio" },
-  { href: "#contact", label: "Contact Me" },
+  { href: "/#about", label: "About Me" },
+  { href: "/projects", label: "My Projects" },
+  { href: "/#studio", label: "My Studio" },
+  { href: "/#contact", label: "Contact Me" },
 ];
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  // Handles mobile nav link clicks
+  const handleMobileLinkClick = (href: string, e: React.MouseEvent) => {
+    setIsOpen(false);
+  };
+
   return (
     <nav className="flex items-center justify-between py-4 z-10">
       <Logo />
-
       {/* DESKTOP NAV */}
       <div className="hidden md:flex items-center space-x-12 uppercase">
         {LINKS.map((link, index) => (
@@ -34,13 +41,16 @@ const Navbar = () => {
           </Link>
         ))}
       </div>
-
       {/* MOBILE NAV */}
       <div className="md:hidden z-10 relative">
-        <Sheet>
-          <SheetTrigger>
-            <SquareMenu color="#1b1b1b" size={30} className="hover:scale-75" />
-          </SheetTrigger>
+        <button
+          aria-label="Open menu"
+          onClick={() => setIsOpen(true)}
+          className="p-2 rounded focus:outline-none"
+        >
+          <SquareMenu color="#1b1b1b" size={30} className="hover:scale-75" />
+        </button>
+        <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetContent className="w-full">
             <SheetHeader>
               <SheetTitle>
@@ -55,6 +65,7 @@ const Navbar = () => {
                 <Link
                   key={index}
                   href={link.href}
+                  onClick={(e) => handleMobileLinkClick(link.href, e)}
                   className="font-title relative text-4xl w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
                 >
                   {link.label}

@@ -268,6 +268,76 @@ export const ProjectsList = [
     The result is a contemporary residence that blends comfort with architectural precision.`,
   },
   {
+    id: 3,
+    images: [
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883229/old-gra-bungalow/guards-polo/3_mbmpnl.jpg",
+        alt: "Guards Polo outside view render",
+        width: 2000,
+        height: 2000,
+      },
+      // {
+      //   src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883226/old-gra-bungalow/guards-polo/1_heashr.jpg",
+      //   alt: "Guards Polo front view render",
+      //   width: 2000,
+      //   height: 2000,
+      // },
+      // {
+      //   src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883227/old-gra-bungalow/guards-polo/2_moutta.jpg",
+      //   alt: "Guards Polo side view render",
+      //   width: 2000,
+      //   height: 2000,
+      // },
+      // {
+      //   src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883229/old-gra-bungalow/guards-polo/3_mbmpnl.jpg",
+      //   alt: "Guards Polo front view",
+      //   width: 2000,
+      //   height: 2000,
+      // },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883235/old-gra-bungalow/guards-polo/4_stptgo.jpg",
+        alt: "Guards Polo lounge",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883231/old-gra-bungalow/guards-polo/5_srs0dg.jpg",
+        alt: "Guards Polo lounge",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883233/old-gra-bungalow/guards-polo/6_slgnq8.jpg",
+        alt: "Guards Polo bedroom",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883239/old-gra-bungalow/guards-polo/7_vt9lun.jpg",
+        alt: "Guards Polo stairwell",
+        width: 2000,
+        height: 2000,
+      },
+      {
+        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883237/old-gra-bungalow/guards-polo/8_ear2vl.jpg",
+        alt: "Guards Polo stairwell",
+        width: 2000,
+        height: 2000,
+      },
+    ],
+    title: "Guards Polo",
+    location: "Abuja",
+    period: "2025",
+    status: "Completed",
+    client: "Sen. Halliru Jika",
+    service: "Full Property Renovation",
+    description: `This project was a complete renovation of the prestigious Guards Polo Club of Abuja. 
+    
+    The client, Senator Halliru Jika, sought a modern transformation of an aging structure into a luxury facility. From structural upgrades to sophisticated interior enhancements, the renovation process was thorough and detail-oriented. 
+    
+    The end result is a revitalized state-of-the-art sporting facility that merges timeless elegance with modern-day comfort.`,
+  },
+  {
     id: 2,
     images: [
       {
@@ -355,76 +425,6 @@ export const ProjectsList = [
   The project involved comprehensive interior fit-out services, including custom cabinetry, lighting, finishes, and furnishing solutions. 
   
   With a focus on both aesthetics and usability, we turned an empty shell into a warm and inviting apartment, tailored to the expectations of high-end residential living.`,
-  },
-  {
-    id: 3,
-    images: [
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883229/old-gra-bungalow/guards-polo/3_mbmpnl.jpg",
-        alt: "Guards Polo outside view render",
-        width: 2000,
-        height: 2000,
-      },
-      // {
-      //   src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883226/old-gra-bungalow/guards-polo/1_heashr.jpg",
-      //   alt: "Guards Polo front view render",
-      //   width: 2000,
-      //   height: 2000,
-      // },
-      // {
-      //   src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883227/old-gra-bungalow/guards-polo/2_moutta.jpg",
-      //   alt: "Guards Polo side view render",
-      //   width: 2000,
-      //   height: 2000,
-      // },
-      // {
-      //   src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883229/old-gra-bungalow/guards-polo/3_mbmpnl.jpg",
-      //   alt: "Guards Polo front view",
-      //   width: 2000,
-      //   height: 2000,
-      // },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883235/old-gra-bungalow/guards-polo/4_stptgo.jpg",
-        alt: "Guards Polo lounge",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883231/old-gra-bungalow/guards-polo/5_srs0dg.jpg",
-        alt: "Guards Polo lounge",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883233/old-gra-bungalow/guards-polo/6_slgnq8.jpg",
-        alt: "Guards Polo bedroom",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883239/old-gra-bungalow/guards-polo/7_vt9lun.jpg",
-        alt: "Guards Polo stairwell",
-        width: 2000,
-        height: 2000,
-      },
-      {
-        src: "https://res.cloudinary.com/dsvthunai/image/upload/v1748883237/old-gra-bungalow/guards-polo/8_ear2vl.jpg",
-        alt: "Guards Polo stairwell",
-        width: 2000,
-        height: 2000,
-      },
-    ],
-    title: "Guards Polo",
-    location: "Abuja",
-    period: "2025",
-    status: "Completed",
-    client: "Sen. Halliru Jika",
-    service: "Full Property Renovation",
-    description: `This project was a complete renovation of the prestigious Guards Polo Club of Abuja. 
-    
-    The client, Senator Halliru Jika, sought a modern transformation of an aging structure into a luxury facility. From structural upgrades to sophisticated interior enhancements, the renovation process was thorough and detail-oriented. 
-    
-    The end result is a revitalized state-of-the-art sporting facility that merges timeless elegance with modern-day comfort.`,
   },
 
   {

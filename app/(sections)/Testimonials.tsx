@@ -7,26 +7,32 @@ import React from "react";
 const testimonials = [
   {
     quote:
-      "I am very glad I hired Lawal Yusuf when I needed a professional to design and fit-out the interior of my new home. His attention to detail and creative input turned my house into a beautiful, livable space. He managed everything professionally and delivered beyond expectations. I'm proud to call it home.",
+      "Working with Lawal Yusuf on the Imamu Duplex was a seamless experience. His keen eye for detail and planning expertise brought my vision to life, creating a home that is both functional and elegant.",
     name: "Imamu Tukur Ahmed",
     title: "",
   },
   {
     quote:
-      "Lawal brought new life to my property. His design approach was thoughtful, and his solutions were practical yet elegant. The renovation exceeded my expectations in both function and form. I highly recommend his services to anyone looking to transform their space.",
+      "Lawal Yusuf managed every stage of the NAF Residence project, from concept to completion. His commitment to quality ensured a beautiful and comfortable home for my family.",
     name: "Nafiu Ahmed",
     title: "",
   },
   {
     quote:
-      "Lawal Yusuf is a true professional. He is very creative and has a keen eye for detail. He translated my needs into a beautifully executed set of homes. His work ethic and commitment to excellence are commendable.",
-    name: "Nasiru Sabo",
-    title: "Founder/CEO, MS Zaheerah Multi-Services",
+      "The transformation of Guards Polo Club exceeded my expectations. Lawal’s experience with handling complex projects helped to turn an aging facility into a modern, luxurious space. Highly recommended!",
+    name: "Sen. Halliru Jika",
+    title: "",
   },
   {
     quote:
-      "I have worked with Lawal Yusuf on multiple projects and he has always delivered on time and within budget. There is no other architect I trust to deliver quality work.",
-    name: "Sen. Halliru Jika",
+      "From a bare apartment to a refined living space, Lawal’s interior fit-out for our Mabushi Apartments project was outstanding. Every detail was thoughtfully executed and he made key improvements to our initial plans.",
+    name: "Uppertec Homes & Luxury",
+    title: "",
+  },
+  {
+    quote:
+      "Lawal’s design and project management of my dream project delivered a home that perfectly balances comfort and sophistication. The process was smooth and the results were impressive.",
+    name: "Justice Aminu H. Usman",
     title: "",
   },
 ];

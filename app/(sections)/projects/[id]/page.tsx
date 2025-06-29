@@ -145,13 +145,6 @@ const ProjectPage = () => {
               <AnimatePresence initial={false} custom={direction}>
                 <motion.div
                   key={imageCount}
-                  style={
-                    project?.images[activeImageIndex].type !== "video"
-                      ? {
-                          backgroundImage: `url(${project?.images[activeImageIndex].src})`,
-                        }
-                      : undefined
-                  }
                   custom={direction}
                   variants={sliderVariants}
                   initial="incoming"
@@ -178,7 +171,22 @@ const ProjectPage = () => {
                         className="max-h-full max-w-full rounded-lg"
                       />
                     </div>
-                  ) : null}
+                  ) : (
+                    <Image
+                      src={
+                        project?.images[activeImageIndex].src ||
+                        "/images/fallback-image.jpg"
+                      }
+                      alt={
+                        project?.images[activeImageIndex].alt ||
+                        "Image description not available"
+                      }
+                      width={project?.images[activeImageIndex].width || 800}
+                      height={project?.images[activeImageIndex].height || 600}
+                      className="max-h-full max-w-full rounded-lg object-contain w-full h-auto"
+                      priority={true}
+                    />
+                  )}
                 </motion.div>
               </AnimatePresence>
             </div>
